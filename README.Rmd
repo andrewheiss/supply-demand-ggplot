@@ -88,7 +88,7 @@ So I wanted to try to find a less hacky solution. In [this old e-mail to r-help]
 
 I've used R for years and I'd never heard of either of those functions. But I figured I'd give it a try.
 
-The `approxfun()` function takes a matrix of data and approximates a linear function to fit that data. For example, we can generate a function for the supply curve and then plug in any x value to calculate the corresponding y. Here are the y values for 2, 6, and 8 (they should match the graphs above):
+`approxfun()` takes a matrix of data and approximates a function to fit that data. For example, we can generate a function for the supply curve and then plug in any x value to calculate the corresponding y. Here are the y values for 2, 6, and 8 (they should match the graphs above):
 
 ```{r approx-supply}
 # I honestly have no idea why rule = 2, but things break when rule = 1, so ¯\_(ツ)_/¯
