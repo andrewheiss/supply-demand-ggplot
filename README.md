@@ -134,7 +134,7 @@ ggplot(mapping = aes(x = x, y = y)) +
 
 ![](README_files/figure-markdown_github-ascii_identifiers/supply-demand-intersection-x-1.png)
 
-To get the horizontal intersection, we just have to find where the vertical intersection (4.654) shows up in the demand function. We calculate this by plugging the intersection into `fun_demand()`:
+To get the horizontal intersection, we just have to find where the vertical intersection (4.654) shows up in the demand function. We calculate this by plugging the intersection into the `fun_demand()` function:
 
 ``` r
 y_root <- fun_demand(intersection_funs$root)
